@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mongo-to-biquery-beam"
+version = "0.1.0"
+description = ""
+authors = ["Joseph Ojo"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-dotenv = "^1.0.1"
+apache-beam = {extras = ["gcp"], version = "^2.57.0"}
+cffi = "1.16.0"
+pandas = "2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,5 @@
+less*
+env*
+.venv
+.env
+poetry*
